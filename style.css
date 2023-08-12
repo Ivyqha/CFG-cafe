@@ -44,7 +44,7 @@ a[class="nav"]:hover {
     gap: 20px; 
 }
 
-.searchbar  {
+.searchbar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,17 +181,18 @@ a[class="nav"]:hover {
 .sign-up { 
     display:flex;
     flex-wrap: wrap; 
+    margin-top: 10px;
 }
 
 input[class="inputsearch"] {
     border: 1px solid rgb(165, 165, 165);
-    margin-top: 10px;
+    
 }
 
 button[id="signup"] { 
     background-color: rgb(103, 103, 103);
     border:  rgb(103, 103, 103);
-    margin-top: 10px; 
+    
 }
 
 button[id="signup"]:hover { 
