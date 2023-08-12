@@ -5,15 +5,22 @@
 }
 .nav { 
     text-decoration: none;
-    margin: 15px;
+    padding: 10px;
+    margin: 15px;  
     color: black; 
+}
+
+a[class="nav"]:hover {
+    background-color: #ECE0D1; 
+    padding: 10px; 
+    border-radius: 3px; 
 }
 
 .topnav { 
     background-color:  #DBC1AC; 
     text-align: center;
     justify-content: center;
-    padding: 30px;
+    padding: 30px; 
 }
 
 .logo { 
@@ -59,7 +66,7 @@
     padding-left: 8px;
 }
 
-.searchBtn { 
+.submitBtn { 
     width: 100px;
     height: 30px; 
     outline: none;
@@ -84,6 +91,7 @@
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    margin: 20px;
 }
 
 .cafecard  {
@@ -124,5 +132,73 @@
     font-size: 15px; 
 }
 
+.infoBtn:hover { 
+    border: 1px solid rgb(144, 119, 97); 
+    background-color: rgb(144, 119, 97); 
+}
+
+/* footer design */ 
+
+.footer { 
+    background-color: #e8e8e8;
+    padding: 30px; 
+}
+
+.footer-title { 
+    font-size: 30px; 
+    letter-spacing: 3px;
+}
+
+.subjects { 
+    display: flex;
+    justify-content: space-around;
+    gap: 40px; 
+    margin-top: 40px; 
+    flex-wrap: wrap; 
+}
+
+.hours{
+    margin-top: 15px;
+}
+
+.list { 
+    list-style: none;
+    margin-top: 12px;
+}
+
+.contact-us { 
+    flex-wrap: wrap; 
+}
+.footer-option {
+    text-decoration: none;
+    color: black; 
+}
+
+.footer-option:hover  {
+    text-decoration: underline; 
+}
+
+.sign-up { 
+    display:flex;
+    flex-wrap: wrap; 
+}
+
+input[class="inputsearch"] {
+    border: 1px solid rgb(165, 165, 165);
+    margin-top: 10px;
+}
+
+button[id="signup"] { 
+    background-color: rgb(103, 103, 103);
+    border:  rgb(103, 103, 103);
+    margin-top: 10px; 
+}
+
+button[id="signup"]:hover { 
+    background-color: rgb(177, 177, 177);
+    border:  rgb(177, 177, 177);
+}
+
 @media only screen and (max-width: 400px) { 
+
 } 
